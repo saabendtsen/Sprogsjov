@@ -23,7 +23,7 @@ public class Main {
 
         }
 
-
+        System.out.println(Hemmelig_Fil.slut());
     }
 
     public static String getString(String s) {

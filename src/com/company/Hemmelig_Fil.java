@@ -2,5 +2,7 @@ package com.company;
 
 public class Hemmelig_Fil {
 
-    // der er intet at se her
+    public static String slut(){
+        return "Slut herfra! *mic drop*";
+    }
 }
