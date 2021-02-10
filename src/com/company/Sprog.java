@@ -12,8 +12,7 @@ public class Sprog  {
         // her tilføjer du ny sprog
         dialoger.put("da", new Dansk());
         dialoger.put("eng", new English());
-        dialoger.put("pirat", new Piratsprog());
-        dialoger.put("fr", new French());
+        dialoger.put("no", new Norsk());
 
     }
     public Dialog SkiftSprog(String s) {
