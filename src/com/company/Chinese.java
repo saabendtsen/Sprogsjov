@@ -1,8 +1,8 @@
 package com.company;
 
-public class Dansk implements Dialog {
+public class Chinese implements Dialog{
 
-    private String s = "danish";
+    private String s ="中文";
 
     @Override
     public String getLanguage() {
@@ -11,11 +11,11 @@ public class Dansk implements Dialog {
 
     @Override
     public String quit() {
-        return "tryk q for at stoppe ";
+        return "输入q退出";
     }
 
     @Override
     public String selectedLanguage() {
-        return "din vælger er"+s;
+        return "您选择了"+s;
     }
 }
