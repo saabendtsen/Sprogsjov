@@ -17,7 +17,7 @@ public class Piratsprog implements Dialog {
 
     @Override
     public String selectedLanguage() {
-        return "det valgte sprog er ";
+        return "th' selected language be ";
     }
 }
 
