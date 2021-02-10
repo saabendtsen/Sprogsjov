@@ -16,6 +16,6 @@ public class Dansk implements Dialog {
 
     @Override
     public String selectedLanguage() {
-        return "det valgte sprog er ";
+        return "din vælger er"+s;
     }
 }

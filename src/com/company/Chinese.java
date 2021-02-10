@@ -1,9 +1,8 @@
 package com.company;
 
-public class Piratsprog implements Dialog {
+public class Chinese implements Dialog{
 
-    final String s = "PiratSprog";
-
+    private String s ="中文";
 
     @Override
     public String getLanguage() {
@@ -12,13 +11,11 @@ public class Piratsprog implements Dialog {
 
     @Override
     public String quit() {
-        return "“Ill skewer yer gizzard, ye salty sea bass... Avast!”";
+        return "输入q退出";
     }
 
     @Override
     public String selectedLanguage() {
-        return "th' selected language be ";
+        return "您选择了"+s;
     }
 }
-
-
